@@ -1,0 +1,295 @@
+[Message:   BepInEx] BepInEx 5.4.17.0 - valheim (3/23/2021 5:28:55 AM)
+[Info   :   BepInEx] Running under Unity v2019.4.20.7197120
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.17.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 20 plugins to load
+[Warning:   BepInEx] Plugin [MonsterLabZ 2.4.4] targets a wrong version of BepInEx (5.4.19.0) and might not work until you update
+[Info   :   BepInEx] Loading [Craft From Containers 1.9.0]
+[Info   :   BepInEx] Loading [Custom Textures 2.2.0]
+[Info   :   BepInEx] Loading [Extended Item Data Framework 1.0.3]
+[Info   :   BepInEx] Loading [Epic Loot 0.8.3]
+[Info   : Unity Log] 06/29/2022 03:00:04: Loaded localization English
+
+[Info   : Unity Log] 06/29/2022 03:00:04: Loaded localization English
+
+[Info   :   BepInEx] Loading [Spawn That! 0.11.2]
+[Message:Spawn That!] Loading general configurations
+[Message:Spawn That!] Finished loading general configurations
+[Info   :   BepInEx] Loading [Drop That! 2.3.3]
+[Message:Drop That!] Loading general configuration from D:\game OFline\game\VH\Valheim\BepInEx\config\drop_that.cfg.
+[Info   :   BepInEx] Loading [badgers Valheim Skies 0.9.0]
+[Info   :   BepInEx] Loading [CameraMod 0.0.8.7]
+[Info   : Unity Log] 1ST FOV:85
+[Info   : Unity Log] 3RD FOV:65
+[Info   : Unity Log] bowzoomON:False
+[Info   : Unity Log] bowzoomFOV:65
+[Info   : Unity Log] bowzoomSpeed:2
+[Info   : Unity Log] smoothCam: False
+[Info   : Unity Log] FPVmouseSensitivityON: False
+[Info   : Unity Log] FPVmouseSensitivity: 1
+[Info   : Unity Log] LvlUpMove: False
+[Info   : Unity Log] slightlyTaller: False
+[Info   : Unity Log] DamageText_delay: 1
+[Info   : Unity Log] DamageText_size: 28
+[Info   : Unity Log] nearClipMin: 0.1
+[Info   :   BepInEx] Loading [RRRCore 0.2.12]
+[Info   :   BepInEx] Loading [RRRMonsters 0.2.2]
+[Info   :   BepInEx] Loading [RRRNpcs 0.2.3]
+[Info   :   BepInEx] Loading [Configuration Manager 16.1]
+[Info   :   BepInEx] Loading [Valheim Quality of Life 1.1.3]
+[Info   :   BepInEx] Loading [MonsterLabZ 2.4.4]
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type Localization and name LoadCSV and parameters 
+[Error  : Unity Log] NullReferenceException: Null method for org.bepinex.helpers.CreatureManager
+Stack trace:
+HarmonyLib.PatchProcessor.Patch () (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer, HarmonyLib.HarmonyMethod ilmanipulator) (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+CreatureManager.PrefabManager..cctor () (at <57715a0168dd4a7cbf95d775df44f9ea>:0)
+Rethrow as TypeInitializationException: The type initializer for 'CreatureManager.PrefabManager' threw an exception.
+CreatureManager.Creature..ctor (System.String assetBundleFileName, System.String prefabName, System.String folderName) (at <57715a0168dd4a7cbf95d775df44f9ea>:0)
+MonsterLabZ.MonsterLabZ.Awake () (at <57715a0168dd4a7cbf95d775df44f9ea>:0)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.Application:.cctor()
+
+[Info   :   BepInEx] Loading [Star Boss 1.0.0.0]
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.9.7]
+[Info   :Valheim Plus] Trying to load the configuration file
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Bed
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Deconstruct
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FireSource
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Smelter
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Windmill
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section SpinningWheel
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key serverSyncHotkeys
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Tameable
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Pickable
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FreePlacementRotation
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Shields
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FirstPerson
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GridAlignment
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section CraftFromChest
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section ValheimPlus
+[Info   : Unity Log]  Loading key mainMenuLogo
+[Info   : Unity Log]  Loading key serverBrowserAdvertisement
+[Info   : Unity Log] Loading config section PlayerProjectile
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section MonsterProjectile
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GameClock
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Brightness
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Chat
+[Info   : Unity Log]  Section not enabled
+[Info   :Valheim Plus] Configuration file loaded succesfully.
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type SE_Rested and name GetNearbyComfortPieces and parameters 
+[Error  : Unity Log] ArgumentException: Undefined target method for patch method static System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction> ValheimPlus.SE_Rested_GetNearbyComfortPieces_Transpiler::Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction> instructions)
+Stack trace:
+HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.PatchClassProcessor.Patch () (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+Rethrow as HarmonyException: Patching exception in method null
+HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.PatchClassProcessor.Patch () (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+HarmonyLib.Harmony.PatchAll () (at <7f26c0a74c5b43c2a5fc5efd29ec63d6>:0)
+ValheimPlus.ValheimPlusPlugin.Awake () (at <05d4279945b1490b848a7812f51331f5>:0)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.Application:.cctor()
+
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 1.1.0]
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.11]
+[Info   :   BepInEx] Loading [Skyheim 1.1.1]
+[Info   :   BepInEx] Loading [Trash Items Mod 1.2.4]
+[Info   :Trash Items Mod] TrashItems Loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] 06/29/2022 03:00:10: Starting to load scene:start
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 06/29/2022 03:00:19: Valheim version:0.148.7
+
+[Info   : Unity Log] 06/29/2022 03:00:19: Render threading mode:MultiThreaded
+
+[Info   : Unity Log] 06/29/2022 03:00:19: Using environment steamid 892970
+
+[Info   : Unity Log] 06/29/2022 03:00:19: Using steam APPID:892970
+
+[Info   : Unity Log] 06/29/2022 03:00:19: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Info   : Unity Log] 06/29/2022 03:00:19: Steam initialized, persona:Trunn
+
+[Warning: Unity Log] 06/29/2022 03:00:19: Missing audio clip in music respawn
+
+[Info   : Unity Log] 06/29/2022 03:00:19: Checking for installed DLCs
+
+[Info   : Unity Log] 06/29/2022 03:00:19: DLC installed:1515960
+
+[Info   : Unity Log] 06/29/2022 03:00:19: DLC:beta installed:True
+
+[Info   : Unity Log] CustomTextures Clutter system awake
+[Info   : Unity Log] CustomTextures Checking 17 clutters
+[Info   : Unity Log] CustomTextures 
+object instanced_meadows_grass, InstanceRenderer instanced_meadows_grass, material grasscross_meadows, texture grass_meadows, using texture_grass_meadows_MainTex.png for _MainTex.
+loading custom texture for texture_grass_meadows_MainTex 0 layers
+loading custom texture file for texture_grass_meadows_MainTex
+object instanced_meadows_grass, InstanceRenderer instanced_meadows_grass, material grasscross_meadows, texture grass_terrain_color, using texture_grass_terrain_color_TerrainColorTex.png for _TerrainColorTex.
+loading custom texture for texture_grass_terrain_color_TerrainColorTex 0 layers
+loading custom texture file for texture_grass_terrain_color_TerrainColorTex
+object instanced_shrub, InstanceRenderer instanced_shrub, material clutter_shrub, texture clutter_shrub, using texture_clutter_shrub_MainTex.png for _MainTex.
+loading custom texture for texture_clutter_shrub_MainTex 0 layers
+loading custom texture file for texture_clutter_shrub_MainTex
+object instanced_shrub, InstanceRenderer instanced_shrub, material clutter_shrub, texture clutter_shrub_n, using texture_clutter_shrub_n_BumpMap.png for _BumpMap.
+loading custom texture for texture_clutter_shrub_n_BumpMap 0 layers
+loading custom texture file for texture_clutter_shrub_n_BumpMap
+object clutter_shrub_large, MeshRenderer shrub, material clutter_shrub (Instance), texture clutter_shrub, using texture_clutter_shrub_MainTex.png for _MainTex.
+loading cached texture for texture_clutter_shrub_MainTex
+object clutter_shrub_large, MeshRenderer shrub, material clutter_shrub (Instance), texture clutter_shrub_n, using texture_clutter_shrub_n_BumpMap.png for _BumpMap.
+loading cached texture for texture_clutter_shrub_n_BumpMap
+object instanced_forest_groundcover_brown, InstanceRenderer instanced_forest_groundcover_brown, material grasscross_forest_brown, texture forest_groundcover_brown, using texture_forest_groundcover_brown_MainTex.png for _MainTex.
+loading custom texture for texture_forest_groundcover_brown_MainTex 0 layers
+loading custom texture file for texture_forest_groundcover_brown_MainTex
+object instanced_forest_groundcover, InstanceRenderer instanced_forest_groundcover, material grasscross_forest, texture forest_groundcover, using texture_forest_groundcover_MainTex.png for _MainTex.
+loading custom texture for texture_forest_groundcover_MainTex 0 layers
+loading custom texture file for texture_forest_groundcover_MainTex
+object instanced_swamp_grass, InstanceRenderer instanced_swamp_grass, material grasscross_swamp, texture grass_toon1_yellow, using texture_grass_toon1_yellow_MainTex.png for _MainTex.
+loading custom texture for texture_grass_toon1_yellow_MainTex 0 layers
+loading custom texture file for texture_grass_toon1_yellow_MainTex
+object instanced_heathgrass, InstanceRenderer instanced_heathgrass, material grasscross_heath, texture grass_heath, using texture_grass_heath_MainTex.png for _MainTex.
+loading custom texture for texture_grass_heath_MainTex 0 layers
+loading custom texture file for texture_grass_heath_MainTex
+object instanced_meadows_grass_short, InstanceRenderer instanced_meadows_grass_short, material grasscross_meadows_short, texture grass_meadows_short, using texture_grass_meadows_short_MainTex.png for _MainTex.
+loading custom texture for texture_grass_meadows_short_MainTex 0 layers
+loading custom texture file for texture_grass_meadows_short_MainTex
+object instanced_meadows_grass_short, InstanceRenderer instanced_meadows_grass_short, material grasscross_meadows_short, texture grass_terrain_color, using texture_grass_terrain_color_TerrainColorTex.png for _TerrainColorTex.
+loading cached texture for texture_grass_terrain_color_TerrainColorTex
+object instanced_heathflowers, InstanceRenderer instanced_heathflowers, material grasscross_heath_flower, texture grass_heath_redflower, using texture_grass_heath_redflower_MainTex.png for _MainTex.
+loading custom texture for texture_grass_heath_redflower_MainTex 0 layers
+loading custom texture file for texture_grass_heath_redflower_MainTex
+object instanced_swamp_ormbunke, InstanceRenderer instanced_swamp_ormbunke, material ormbunke_yellow, texture autumn_ormbunke_swamp, using texture_autumn_ormbunke_swamp_MainTex.png for _MainTex.
+loading custom texture for texture_autumn_ormbunke_swamp_MainTex 0 layers
+loading custom texture file for texture_autumn_ormbunke_swamp_MainTex
+object instanced_swamp_ormbunke, InstanceRenderer instanced_swamp_ormbunke, material ormbunke_yellow, texture autumn_ormbunke_green_n, using texture_autumn_ormbunke_green_n_BumpMap.png for _BumpMap.
+loading custom texture for texture_autumn_ormbunke_green_n_BumpMap 0 layers
+loading custom texture file for texture_autumn_ormbunke_green_n_BumpMap
+object instanced_ormbunke, InstanceRenderer instanced_ormbunke, material ormbunke, texture autumn_ormbunke_green, using texture_autumn_ormbunke_green_MainTex.png for _MainTex.
+loading custom texture for texture_autumn_ormbunke_green_MainTex 0 layers
+loading custom texture file for texture_autumn_ormbunke_green_MainTex
+object instanced_ormbunke, InstanceRenderer instanced_ormbunke, material ormbunke, texture autumn_ormbunke_green_n, using texture_autumn_ormbunke_green_n_BumpMap.png for _BumpMap.
+loading cached texture for texture_autumn_ormbunke_green_n_BumpMap
+object instanced_ormbunke, InstanceRenderer instanced_ormbunke, material ormbunke, texture autumn_ormbunke_green, using texture_autumn_ormbunke_green_MainTex.png for _MainTex.
+loading cached texture for texture_autumn_ormbunke_green_MainTex
+object instanced_ormbunke, InstanceRenderer instanced_ormbunke, material ormbunke, texture autumn_ormbunke_green_n, using texture_autumn_ormbunke_green_n_BumpMap.png for _BumpMap.
+loading cached texture for texture_autumn_ormbunke_green_n_BumpMap
+object instanced_vass, InstanceRenderer instanced_vass, material vass, texture vass_texture01, using texture_vass_texture01_MainTex.png for _MainTex.
+loading custom texture for texture_vass_texture01_MainTex 0 layers
+loading custom texture file for texture_vass_texture01_MainTex
+object instanced_waterlilies, InstanceRenderer instanced_waterlilies, material clutter_waterlilies, texture waterlilies, using texture_waterlilies_MainTex.png for _MainTex.
+loading custom texture for texture_waterlilies_MainTex 0 layers
+loading custom texture file for texture_waterlilies_MainTex
+object instanced_waterlilies, InstanceRenderer instanced_waterlilies, material clutter_waterlilies, texture waterlilies_n, using texture_waterlilies_n_BumpMap.png for _BumpMap.
+loading custom texture for texture_waterlilies_n_BumpMap 0 layers
+loading custom texture file for texture_waterlilies_n_BumpMap
+[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.40
+[Info   : Unity Log] 06/29/2022 03:00:22: Steam manager on destroy
+
