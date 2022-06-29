@@ -1,0 +1,18 @@
+{
+   "TradeRequestSent" : "Trade request sent",
+   "TradeRecentlySent" : "Trade request recently sent",
+   "StartedTradeWithX" : "Started trading with",
+   "XWantsToTrade" : "wants to trade",
+   "XHasCancelledTrade" : "has cancelled the trade",
+   "LocalPlayerCancelledTrade" : "You have cancelled the trade",
+   "CantStartNewTradeInstance" : "You cannot start a new trade session",
+   "TradeSuccessful" : "Trade successful",
+   "NotEnoughInventorySlots" : "Not enough inventory slots",
+   "ToGiveWindowText" : "You Will Give",
+   "ToReceiveWindowText" : "You Will Receive",
+   "AcceptTradeButtonText" : "Accept Trade",
+   "ChangeTradeButtonText" : "Change Trade",
+   "CancelTradeButtonText" : "Cancel Trade",
+   "EditModeOn" : "Edit UI Mode ON",
+   "EditModeOff" : "Edit UI Mode OFF"
+}
