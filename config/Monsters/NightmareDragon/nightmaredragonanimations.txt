@@ -1,5 +1,0 @@
-hornattack
-attackright
-jumpattack
-spit
-taunt (this is the lightning attack)

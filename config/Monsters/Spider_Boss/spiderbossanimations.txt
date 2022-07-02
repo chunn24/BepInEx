@@ -1,8 +1,0 @@
-attack (double claw)
-attackleft (left claw)
-attackright (right claw)
-attackspit
-attackcombo
-taunt
-attacklefthand (unused extra anim)
-attackrighthand (unused extra anim)

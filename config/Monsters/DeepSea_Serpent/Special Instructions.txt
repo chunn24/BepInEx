@@ -1,1 +1,0 @@
-This creature is to be spawned in the deepest part of the ocean. It will not come to the surface and it will not come to the shore. If you spawn this too close to the shore it will glitch

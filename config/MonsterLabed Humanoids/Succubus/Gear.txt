@@ -1,5 +1,0 @@
-Succubus Gear:
-
-Can wear default helmets not armor.
-SuccubusArmorHeavy
-SuccubusArmorChaos

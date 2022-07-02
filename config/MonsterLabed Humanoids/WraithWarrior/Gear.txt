@@ -1,3 +1,0 @@
-WraithWarrior Gear:
-
-Can't wear any gear but has access to all the monsterlabed animations.
