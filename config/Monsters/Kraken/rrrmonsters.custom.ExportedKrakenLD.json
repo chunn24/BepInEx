@@ -14,8 +14,8 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "$enemy_kraken",
-      "sFaction" : "MountainMonsters",
+      "sName" : "Kraken",
+      "sFaction" : "SeaMonsters",
       "bBoss" : true,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "defeated_kraken",
@@ -56,7 +56,6 @@
       "aDefaultItems" : [
          "kraken_attack1",
          "kraken_attack2",
-         "kraken_attack3",
          "kraken_attack4",
          "kraken_taunt"
       ],
@@ -120,22 +119,22 @@
       "fAlertRange" : 50,
       "bFleeIfHurtWhenTargetCantBeReached" : true,
       "bFleeIfNotAlerted" : true,
-      "fFleeIfLowHealth" : 0.1,
+      "fFleeIfLowHealth" : 0.05,
       "bCirculateWhileCharging" : false,
       "bCirculateWhileChargingFlying" : false,
-      "bEnableHuntPlayer" : false,
+      "bEnableHuntPlayer" : true,
       "bAttackPlayerObjects" : true,
       "bAttackPlayerObjectsWhenAlerted" : null,
       "fInterceptTimeMax" : 2,
       "fInterceptTimeMin" : 0,
       "fMaxChaseDistance" : 300,
-      "fMinAttackInterval" : 0,
+      "fMinAttackInterval" : 2,
       "fCircleTargetInterval" : 0,
       "fCircleTargetDuration" : 2,
       "fCircleTargetDistance" : 4,
       "bSleeping" : false,
       "bNoiseWakeup" : false,
-      "fNoiseRangeScale" : null,
+      "fNoiseRangeScale" : 1,
       "fWakeupRange" : 5,
       "aWakeupEffects" : [
          

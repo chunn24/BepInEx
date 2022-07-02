@@ -14,7 +14,7 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "$enemy_goblinshamannew",
+      "sName" : "$enemy_goblinshaman",
       "sFaction" : "PlainsMonsters",
       "bBoss" : false,
       "sBossEvent" : "",
@@ -146,7 +146,7 @@
       "fCircleTargetDistance" : 20,
       "bSleeping" : false,
       "bNoiseWakeup" : false,
-      "fNoiseRangeScale" : null,
+      "fNoiseRangeScale" : 1,
       "fWakeupRange" : 5,
       "aWakeupEffects" : [
          

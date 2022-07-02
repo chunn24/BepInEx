@@ -14,7 +14,7 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "$enemy_goblinloot",
+      "sName" : "Goblin",
       "sFaction" : "PlainsMonsters",
       "bBoss" : false,
       "sBossEvent" : "",
@@ -109,7 +109,7 @@
       "fFlyAltitudeMax" : 10,
       "fTakeoffTime" : 5,
       "bAvoidFire" : true,
-      "bAfraidOfFire" : false,
+      "bAfraidOfFire" : true,
       "bAvoidWater" : true,
       "sSpawnMessage" : "",
       "sDeathMessage" : ""
@@ -150,11 +150,11 @@
       "drDrops" : [
          {
             "sPrefabName" : "Coins",
-            "iAmountMin" : 10,
-            "iAmountMax" : 15,
+            "iAmountMin" : 5,
+            "iAmountMax" : 10,
             "fChance" : 1,
             "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
+            "bLevelMultiplier" : false
          }
       ]
    },

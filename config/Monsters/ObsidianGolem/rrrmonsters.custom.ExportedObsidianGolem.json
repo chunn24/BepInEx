@@ -14,7 +14,7 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "$enemy_obsidiangolem",
+      "sName" : "$enemy_stonegolem",
       "sFaction" : "ForestMonsters",
       "bBoss" : false,
       "sBossEvent" : "",
@@ -147,7 +147,7 @@
       "fCircleTargetDistance" : 10,
       "bSleeping" : true,
       "bNoiseWakeup" : true,
-      "fNoiseRangeScale" : null,
+      "fNoiseRangeScale" : 0.5,
       "fWakeupRange" : 2,
       "aWakeupEffects" : [
          "sfx_stonegolem_wakeup",
