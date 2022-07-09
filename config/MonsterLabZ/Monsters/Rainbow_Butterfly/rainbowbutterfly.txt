@@ -1,1 +1,0 @@
-it only runs away. i dont think JSONS work for AnimalAI Monsters. To spawn this creature type "spawn Rainbow_Butterfly" or add that prefab to spawn that and change drops with drop that
