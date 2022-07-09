@@ -34,9 +34,9 @@
 [Info   :   BepInEx] Loading [Custom Textures 2.2.0]
 [Info   :   BepInEx] Loading [Extended Item Data Framework 1.0.3]
 [Info   :   BepInEx] Loading [Epic Loot 0.8.3]
-[Info   : Unity Log] 07/09/2022 13:00:13: Loaded localization English
+[Info   : Unity Log] 07/09/2022 14:09:31: Loaded localization English
 
-[Info   : Unity Log] 07/09/2022 13:00:13: Loaded localization English
+[Info   : Unity Log] 07/09/2022 14:09:31: Loaded localization English
 
 [Info   :   BepInEx] Loading [Spawn That! 0.11.2]
 [Message:Spawn That!] Loading general configurations
@@ -77,33 +77,16 @@
 [Info   :   BepInEx] Loading [MonsterLabZ 1.7.0]
 [Warning: Unity Log] The referenced script (TerrainOp) on this Behaviour is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object 'digg_v3') is missing!
-[Info   :   BepInEx] Loading [Hugo's Armory 7.0.1]
+[Info   :   BepInEx] Loading [Hugo's Armory 5.0.0]
 [Warning:Hugo's Armory] Failed to find 'D:\game OFline\game\VH\Valheim\BepInEx\config\htd.armory_itemdata.cfg' will create config of same name with default values.
 [Warning:Hugo's Armory] Failed to find 'D:\game OFline\game\VH\Valheim\BepInEx\config\htd.armory_recipeData.cfg' will create config of same name with default values.
-[Warning:Hugo's Armory] Failed to find 'D:\game OFline\game\VH\Valheim\BepInEx\config\htd.armory_armorData.cfg' will create config of same name with default values.
-[Error  :Hugo's Armory] An IO Exception was thrown. [_localization]
-[Error  :Hugo's Armory] Could not find file "D:\game OFline\game\VH\Valheim\BepInEx\config\htd.armory_localization.tsv"
-[Error  :Hugo's Armory]   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00067] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
-  at ValheimHTDArmory.CustomLocalization.LoadLocalization (System.String bepinexConfigPath) [0x00016] in <d8b6a97d23934a79bae251593f6edb66>:0 
+[Warning:Hugo's Armory] Failed to find 'htd.armory_localization'/.cfg in path 'D:\game OFline\game\VH\Valheim\BepInEx\config\htd.armory' will create config of same name with default values.
 [Info   :   BepInEx] Loading [More Player Cloth Colliders 3.0.1]
 [Info   :   BepInEx] Loading [Shapekeys and More 1.1.0]
 [Info   :   BepInEx] Loading [Better Archery 1.6.2]
 [Info   :   BepInEx] Loading [Valheim Combat Overhaul 1.7.6]
 [Info   :CombatOverhaul] Loaded localization for English
-[Info   :   BepInEx] Loading [Seed Totem 4.1.0]
-[Error  : Unity Log] MissingMethodException: void Jotunn.Managers.PrefabManager.add_OnVanillaPrefabsAvailable(System.Action)
-Stack trace:
-UnityEngine.GameObject:AddComponent(Type)
-BepInEx.Bootstrap.Chainloader:Start()
-UnityEngine.Application:.cctor()
-
+[Info   :   BepInEx] Loading [Seed Totem 1.1.5]
 [Info   :   BepInEx] Loading [MultiCraft 1.0.0]
 [Info   :   BepInEx] Loading [BetterUI 2.0.2]
 [Info   :   BepInEx] Loading [Valheim Plus 0.9.9.8]
@@ -233,28 +216,28 @@ UnityEngine.Application:.cctor()
 [Info   :   BepInEx] Loading [Trash Items Mod 1.2.4]
 [Info   :Trash Items Mod] TrashItems Loaded!
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] 07/09/2022 13:00:27: Starting to load scene:start
+[Info   : Unity Log] 07/09/2022 14:09:44: Starting to load scene:start
 
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
-[Info   : Unity Log] 07/09/2022 13:00:38: Valheim version:0.148.7
+[Info   : Unity Log] 07/09/2022 14:09:55: Valheim version:0.148.7
 
-[Info   : Unity Log] 07/09/2022 13:00:38: Render threading mode:MultiThreaded
+[Info   : Unity Log] 07/09/2022 14:09:55: Render threading mode:MultiThreaded
 
-[Info   : Unity Log] 07/09/2022 13:00:38: Using environment steamid 892970
+[Info   : Unity Log] 07/09/2022 14:09:55: Using environment steamid 892970
 
-[Info   : Unity Log] 07/09/2022 13:00:38: Using steam APPID:892970
+[Info   : Unity Log] 07/09/2022 14:09:55: Using steam APPID:892970
 
-[Info   : Unity Log] 07/09/2022 13:00:39: Authentication:k_ESteamNetworkingAvailability_Attempting
+[Info   : Unity Log] 07/09/2022 14:09:56: Authentication:k_ESteamNetworkingAvailability_Attempting
 
-[Info   : Unity Log] 07/09/2022 13:00:39: Steam initialized, persona:Trunn
+[Info   : Unity Log] 07/09/2022 14:09:56: Steam initialized, persona:Trunn
 
-[Warning: Unity Log] 07/09/2022 13:00:39: Missing audio clip in music respawn
+[Warning: Unity Log] 07/09/2022 14:09:56: Missing audio clip in music respawn
 
-[Info   : Unity Log] 07/09/2022 13:00:39: Checking for installed DLCs
+[Info   : Unity Log] 07/09/2022 14:09:56: Checking for installed DLCs
 
-[Info   : Unity Log] 07/09/2022 13:00:39: DLC installed:1515960
+[Info   : Unity Log] 07/09/2022 14:09:56: DLC installed:1515960
 
-[Info   : Unity Log] 07/09/2022 13:00:39: DLC:beta installed:True
+[Info   : Unity Log] 07/09/2022 14:09:56: DLC:beta installed:True
 
 [Info   : Unity Log] CustomTextures Clutter system awake
 [Info   : Unity Log] CustomTextures Checking 17 clutters
@@ -319,12 +302,14 @@ loading custom texture file for texture_waterlilies_MainTex
 object instanced_waterlilies, InstanceRenderer instanced_waterlilies, material clutter_waterlilies, texture waterlilies_n, using texture_waterlilies_n_BumpMap.png for _BumpMap.
 loading custom texture for texture_waterlilies_n_BumpMap 0 layers
 loading custom texture file for texture_waterlilies_n_BumpMap
-[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.62
+[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.61
 [Info   :Jotunn.Managers.LocalizationManager] Loading custom localizations
-[Info   : Unity Log] 07/09/2022 13:00:41: Loaded localization English
+[Info   : Unity Log] 07/09/2022 14:09:57: Loaded localization English
 
 [Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'English'
 [Warning:RRRMonsters] True
+[Info   :Seed Totem] Updating color
+[Info   :Seed Totem] Registering Seed Totem Piece
 [Warning:RRRMonsters] True
 [Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LeatherBelt
 [Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverRing
@@ -371,7 +356,7 @@ loading custom texture file for texture_waterlilies_n_BumpMap
 [Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverArrowTransform
 [Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FrostArrowTransform
 [Info   : Unity Log] CustomTextures SetupObjectDB postfix
-[Info   : Unity Log] CustomTextures Replacing textures for 520 objects
+[Info   : Unity Log] CustomTextures Replacing textures for 500 objects
 [Info   : Unity Log] CustomTextures 
 object ArmorRagsChest, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
 loading custom texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex 0 layers
@@ -730,47 +715,57 @@ object NewGoblinShamanStaffFeathers, MeshRenderer default, material GoblinStuff_
 loading cached texture for texture_GoblinStuff_d_MainTex
 object NewGoblinShamanStaffFeathers, MeshRenderer default, material GoblinStuff_mat (Instance), texture GoblinStuff_n, using texture_GoblinStuff_n_BumpMap.png for _BumpMap.
 loading cached texture for texture_GoblinStuff_n_BumpMap
-object ArmorHelmetBoarHTD, MeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorHelmetBoarHTD, MeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorHelmetBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorHelmetBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorChestBoarHTD, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
-loading cached texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex
-object ArmorChestBoarHTD, SkinnedMeshRenderer BoarChestMesh, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorChestBoarHTD, SkinnedMeshRenderer BoarChestMesh, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorLegsBoarHTD, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
-loading cached texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex
-object ArmorLegsBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorLegsBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorLegsBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorLegsBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorShoulderBoarHTD, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
-loading cached texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex
-object ArmorShoulderBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorShoulderBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:05.41
+object MaceSilverGreat, ParticleSystemRenderer soft cloud, material frost (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire01_MainTex
+object MaceSilverGreat, ParticleSystemRenderer soft cloud (1), material frost (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire01_MainTex
+object MaceSilverGreat, ParticleSystemRenderer soft cloud (2), material frost (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire01_MainTex
+object MaceCoreGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreatGreen, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreatGreen, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreatGreen, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceGraspUndying, ParticleSystemRenderer smoke_expl1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceGraspUndying, ParticleSystemRenderer smoke_expl2, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceGraspUndying, ParticleSystemRenderer smoke_expl3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordObsidianGreat, ParticleSystemRenderer smoke_expl1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordObsidianGreat, ParticleSystemRenderer smoke_expl2, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordObsidianGreat, ParticleSystemRenderer smoke_expl3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordFlametalGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordFlametalGreat, ParticleSystemRenderer smoke2, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordFlametalGreat, ParticleSystemRenderer smoke3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:04.84
 [Info   : Unity Log] BVS: Yggdrasil game object not found
 [Info   : Unity Log] BVS: sky cloud layer game object not found
 [Info   : Unity Log] BVS: distant cloud layer game object not found
 [Info   : Unity Log] id 0
 [Info   : Unity Log] name 
+[Info   : Unity Log] 07/09/2022 14:10:02: Failed to find item prefab BlackMetalGreatSwordHTD
+
 [Info   : Unity Log] BVS: Yggdrasil game object not found
 [Info   : Unity Log] BVS: sky cloud layer game object not found
 [Info   : Unity Log] BVS: distant cloud layer game object not found
 [Info   : Unity Log] id 0
 [Info   : Unity Log] name 
+[Info   : Unity Log] 07/09/2022 14:10:03: Failed to find item prefab BlackMetalGreatSwordHTD
+
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
@@ -787,11 +782,11 @@ loading cached texture for texture_Boar_valheim_n_BumpMap
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #1: belt1, Is Male False, is Sexless True
-[Info   : Unity Log] 07/09/2022 13:00:50: UI Group status changed Menu = True
+[Info   : Unity Log] 07/09/2022 14:10:06: UI Group status changed Menu = True
 
-[Info   : Unity Log] 07/09/2022 13:00:53: show character selection
+[Info   : Unity Log] 07/09/2022 14:10:07: show character selection
 
-[Info   : Unity Log] 07/09/2022 13:00:54: OnCharacterStart
+[Info   : Unity Log] 07/09/2022 14:10:08: OnCharacterStart
 
 [Message:Spawn That!] Loading all configs.
 [Message:Spawn That!] Loading general configurations
@@ -799,27 +794,27 @@ loading cached texture for texture_Boar_valheim_n_BumpMap
 [Message:Spawn That!] Loading simple configurations
 [Message:Spawn That!] Loading world spawner configurations.
 [Message:Spawn That!] Loading local spawner configurations.
-[Message:Spawn That!] Config loading took: 00:00:00.5925126
-[Info   : Unity Log] 07/09/2022 13:01:00: Loading player profile chunn_backup_20220627-151638
+[Message:Spawn That!] Config loading took: 00:00:00.5860849
+[Info   : Unity Log] 07/09/2022 14:10:14: Loading player profile chunn_backup_20220627-151638
 
 [Info   : Unity Log] CustomTextures Reloading ZoneSystem textures _GameMain _Zone
-[Info   : Unity Log] 07/09/2022 13:01:01: Zonesystem Awake 410
+[Info   : Unity Log] 07/09/2022 14:10:15: Zonesystem Awake 349
 
-[Info   : Unity Log] 07/09/2022 13:01:01: DungeonDB Awake 410
+[Info   : Unity Log] 07/09/2022 14:10:15: DungeonDB Awake 349
 
-[Info   : Unity Log] 07/09/2022 13:01:01: Steam initialized, persona:Trunn
+[Info   : Unity Log] 07/09/2022 14:10:15: Steam initialized, persona:Trunn
 
-[Info   : Unity Log] 07/09/2022 13:01:01: Registering lobby
+[Info   : Unity Log] 07/09/2022 14:10:15: Registering lobby
 
-[Info   : Unity Log] 07/09/2022 13:01:05: Load world Chunn
+[Info   : Unity Log] 07/09/2022 14:10:18: Load world Chunn
 
-[Info   : Unity Log] 07/09/2022 13:01:05: Loading 1017661 zdos , my id 1860438449 data version:26
+[Info   : Unity Log] 07/09/2022 14:10:18: Loading 1017647 zdos , my id 2849016891 data version:26
 
-[Info   : Unity Log] 07/09/2022 13:01:08: Loaded 100000 dead zdos
+[Info   : Unity Log] 07/09/2022 14:10:21: Loaded 100000 dead zdos
 
-[Info   : Unity Log] 07/09/2022 13:01:08: Removed 0 OLD generated ZDOS
+[Info   : Unity Log] 07/09/2022 14:10:21: Removed 0 OLD generated ZDOS
 
-[Info   : Unity Log] 07/09/2022 13:01:08: Loaded 7132 locations
+[Info   : Unity Log] 07/09/2022 14:10:21: Loaded 7132 locations
 
 [Info   : Unity Log] Registered 'randyknapp.mods.epicloot ConfigSync' RPC - waiting for incoming connections
 [Info   : Unity Log] Registered 'htd.armory ConfigSync' RPC - waiting for incoming connections
@@ -834,7 +829,7 @@ loading cached texture for texture_Boar_valheim_n_BumpMap
 [Info   : Unity Log] BVS: Loading pz.png
 [Info   : Unity Log] BVS: Loading nz.png
 [Info   : Unity Log] CustomTextures ZNetScene awake
-[Info   : Unity Log] CustomTextures Checking 1700 prefabs
+[Info   : Unity Log] CustomTextures Checking 1680 prefabs
 [Info   : Unity Log] CustomTextures 
 object aoe_nova, ParticleSystemRenderer ground_fire, material aoe_flame (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
 loading cached texture for texture_wildfire01_MainTex
@@ -3137,37 +3132,43 @@ object NewGoblinShamanStaffFeathers, MeshRenderer default, material GoblinStuff_
 loading cached texture for texture_GoblinStuff_d_MainTex
 object NewGoblinShamanStaffFeathers, MeshRenderer default, material GoblinStuff_mat (Instance), texture GoblinStuff_n, using texture_GoblinStuff_n_BumpMap.png for _BumpMap.
 loading cached texture for texture_GoblinStuff_n_BumpMap
-object ArmorHelmetBoarHTD, MeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorHelmetBoarHTD, MeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorHelmetBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorHelmetBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorChestBoarHTD, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
-loading cached texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex
-object ArmorChestBoarHTD, SkinnedMeshRenderer BoarChestMesh, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorChestBoarHTD, SkinnedMeshRenderer BoarChestMesh, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorLegsBoarHTD, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
-loading cached texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex
-object ArmorLegsBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorLegsBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorLegsBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorLegsBoarHTD, SkinnedMeshRenderer modelcloth, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-object ArmorShoulderBoarHTD, MeshRenderer log, material Rags (Instance), texture (Wood 26) tree bark seamless texture 2048x2048, using texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex.png for _MainTex.
-loading cached texture for texture_(Wood 26) tree bark seamless texture 2048x2048_MainTex
-object ArmorShoulderBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_d, using texture_Boar_valheim_d_MainTex.png for _MainTex.
-loading cached texture for texture_Boar_valheim_d_MainTex
-object ArmorShoulderBoarHTD, SkinnedMeshRenderer model, material BoarTwoSidedBase_Mat (Instance), texture Boar_valheim_n, using texture_Boar_valheim_n_BumpMap.png for _BumpMap.
-loading cached texture for texture_Boar_valheim_n_BumpMap
-[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:13.22
+object MaceSilverGreat, ParticleSystemRenderer soft cloud, material frost (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire01_MainTex
+object MaceSilverGreat, ParticleSystemRenderer soft cloud (1), material frost (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire01_MainTex
+object MaceSilverGreat, ParticleSystemRenderer soft cloud (2), material frost (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire01_MainTex
+object MaceCoreGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreatGreen, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreatGreen, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceCoreGreatGreen, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceGraspUndying, ParticleSystemRenderer smoke_expl1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceGraspUndying, ParticleSystemRenderer smoke_expl2, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object MaceGraspUndying, ParticleSystemRenderer smoke_expl3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordObsidianGreat, ParticleSystemRenderer smoke_expl1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordObsidianGreat, ParticleSystemRenderer smoke_expl2, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordObsidianGreat, ParticleSystemRenderer smoke_expl3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordFlametalGreat, ParticleSystemRenderer smoke1, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordFlametalGreat, ParticleSystemRenderer smoke2, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+object SwordFlametalGreat, ParticleSystemRenderer smoke3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
+loading cached texture for texture_wildfire06_MainTex
+[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:10.77
 [Info   : Unity Log] CustomTextures Reloading Environment textures
 [Info   : Unity Log] CustomTextures Reloading 9 Environment textures
 [Info   : Unity Log] CustomTextures 
@@ -3182,7 +3183,7 @@ loading cached texture for texture_root_particle_MainTex
 environment Rain, ParticleSystemRenderer distant_rain, material rain_soft (Instance), texture wildfire01, using texture_wildfire01_MainTex.png for _MainTex.
 loading cached texture for texture_wildfire01_MainTex
 [Info   : Unity Log] [CustomSlotCreator] Created quiver slot for LeatherQuiver.
-[Info   :Jotunn.Managers.PrefabManager] Adding 10 custom prefabs to the ZNetScene
+[Info   :Jotunn.Managers.PrefabManager] Adding 11 custom prefabs to the ZNetScene
 [Warning:RRRMonsters] True
 [Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LeatherBelt
 [Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverRing
@@ -3362,30 +3363,30 @@ RRRCore.RRRCustomMobs.MakePrefabs () (at <b67bcf91c8ba49bc833a13b0ca6bd19d>:0)
 RRRCore.RRRLateLoadPrefabs.Load () (at <b67bcf91c8ba49bc833a13b0ca6bd19d>:0)
 RRRCore.Plugin.LateLoadServer () (at <b67bcf91c8ba49bc833a13b0ca6bd19d>:0)
 (wrapper dynamic-method) ObjectDB.DMD<ObjectDB::Awake>(ObjectDB)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?-16339968(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?622745600(ObjectDB)
 Jotunn.Managers.ItemManager.RegisterCustomData (On.ObjectDB+orig_Awake orig, ObjectDB self) (at <7f467f984b0a42c6897d34125da76301>:0)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?-742697344(ObjectDB)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?-1451966464(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?82659072(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?-123450368(ObjectDB)
 Jotunn.Managers.PieceManager.RegisterCustomData (On.ObjectDB+orig_Awake orig, ObjectDB self) (at <7f467f984b0a42c6897d34125da76301>:0)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?-872294784(ObjectDB)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?337331200(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?1823622912(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?-503729152(ObjectDB)
 Jotunn.Managers.MockManager.RemoveMockPrefabs (On.ObjectDB+orig_Awake orig, ObjectDB self) (at <7f467f984b0a42c6897d34125da76301>:0)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?1654065664(ObjectDB)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?96394240(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?1741552256(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?-1293852672(ObjectDB)
 Jotunn.Managers.ItemManager.InvokeOnItemsRegistered (On.ObjectDB+orig_Awake orig, ObjectDB self) (at <7f467f984b0a42c6897d34125da76301>:0)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?1522686976(ObjectDB)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?3874816(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?-499725184(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ObjectDB::Awake>?-1768631296(ObjectDB)
 Jotunn.Managers.PieceManager.InvokeOnPiecesRegistered (On.ObjectDB+orig_Awake orig, ObjectDB self) (at <7f467f984b0a42c6897d34125da76301>:0)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?214216064(ObjectDB)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ObjectDB::Awake>?968228864(ObjectDB)
 
-[Info   : Unity Log] 07/09/2022 13:01:39: Audioman already exist, destroying self
+[Info   : Unity Log] 07/09/2022 14:10:52: Audioman already exist, destroying self
 
 [Info   : Unity Log] [BetterUI] User has 17 ui elements set.
-[Info   : Unity Log] 07/09/2022 13:01:39: Checking for installed DLCs
+[Info   : Unity Log] 07/09/2022 14:10:52: Checking for installed DLCs
 
-[Info   : Unity Log] 07/09/2022 13:01:39: DLC installed:1515960
+[Info   : Unity Log] 07/09/2022 14:10:52: DLC installed:1515960
 
-[Info   : Unity Log] 07/09/2022 13:01:39: DLC:beta installed:True
+[Info   : Unity Log] 07/09/2022 14:10:52: DLC:beta installed:True
 
 [Info   : Unity Log] CustomTextures Clutter system awake
 [Info   : Unity Log] CustomTextures Checking 17 clutters
@@ -3437,28 +3438,28 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.01
 [Info   : Unity Log] CustomTextures Starting ZoneSystem Location prefab replacement
 [Info   : Unity Log] CustomTextures Checking 148 locations
-[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:43.97
-[Info   : Unity Log] 07/09/2022 13:02:28: Zonesystem Start 410
+[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:38.24
+[Info   : Unity Log] 07/09/2022 14:11:39: Zonesystem Start 349
 
-[Info   : Unity Log] 07/09/2022 13:02:28: DungeonDB Start 410
+[Info   : Unity Log] 07/09/2022 14:11:39: DungeonDB Start 349
 
-[Info   : Unity Log] 07/09/2022 13:02:28: Starting respawn
+[Info   : Unity Log] 07/09/2022 14:11:40: Starting respawn
 
-[Info   : Unity Log] 07/09/2022 13:02:28: Lobby was created k_EResultOK  109775244270142373  error:False
+[Info   : Unity Log] 07/09/2022 14:11:40: Lobby was created k_EResultOK  109775244272961797  error:False
 
-[Info   : Unity Log] 07/09/2022 13:02:28: Got requested lobby data
+[Info   : Unity Log] 07/09/2022 14:11:40: Got requested lobby data
 
-[Info   : Unity Log] 07/09/2022 13:02:38: tip:$loadscreen_tip18
+[Info   : Unity Log] 07/09/2022 14:11:49: tip:$loadscreen_tip02
 
-[Info   : Unity Log] 07/09/2022 13:02:38: Got requested lobby data
+[Info   : Unity Log] 07/09/2022 14:11:50: Got requested lobby data
 
-[Info   : Unity Log] 07/09/2022 13:02:44: Force generaeting hmap (-576.0, 0.0, -704.0)
+[Info   : Unity Log] 07/09/2022 14:11:54: Force generaeting hmap (-640.0, 0.0, -704.0)
 
-[Info   : Unity Log] 07/09/2022 13:02:44: Force generaeting hmap (-640.0, 0.0, -704.0)
+[Info   : Unity Log] 07/09/2022 14:11:54: Force generaeting hmap (-576.0, 0.0, -704.0)
 
-[Info   : Unity Log] 07/09/2022 13:02:44: Force generaeting hmap (-576.0, 0.0, -640.0)
+[Info   : Unity Log] 07/09/2022 14:11:54: Force generaeting hmap (-576.0, 0.0, -640.0)
 
-[Info   : Unity Log] 07/09/2022 13:02:44: Force generaeting hmap (-576.0, 0.0, -576.0)
+[Info   : Unity Log] 07/09/2022 14:11:54: Force generaeting hmap (-576.0, 0.0, -576.0)
 
 [Warning:Spawn That!] Unable to find prefab for RRRM_ElderSurtling
 [Warning:Spawn That!] Unable to find prefab for RRRM_AshNeck
@@ -4885,7 +4886,7 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Warning:Spawn That!] Unable to find prefab for RRRM_BrownSpider
 [Warning:Spawn That!] Unable to find prefab for RRRM_BlackSpider
 [Warning:Spawn That!] Unable to find prefab for RRRM_TreeSpider
-[Info   : Unity Log] 07/09/2022 13:02:47: Spawned after 8.019994
+[Info   : Unity Log] 07/09/2022 14:11:58: Spawned after 8.019994
 
 [Info   : Unity Log] BVS: Found yggdrasil game object
 [Info   : Unity Log] BVS: Found sky cloud layer game object
@@ -4899,79 +4900,17 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Info   : Unity Log] BVS: Got cloud material
 [Info   : Unity Log] id 0
 [Info   : Unity Log] name ...
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Boar Berserker Headdress
+[Info   : Unity Log] 07/09/2022 14:11:58: Failed to find item prefab BlackMetalGreatSwordHTD
 
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Boar Berserker Chest
+[Info   : Unity Log] 07/09/2022 14:11:58: Queue unlock msg:$msg_newrecipe:Silver Great Sword
 
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Boar Berserker Skirt
+[Info   : Unity Log] 07/09/2022 14:11:58: Queue unlock msg:$msg_newrecipe:Iron Great Sword
 
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Boar Berserker Scarf
+[Info   : Unity Log] 07/09/2022 14:11:58: Queue unlock msg:$msg_newrecipe:Black Metal Great Sword
 
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Bronze Knuckles
+[Info   : Unity Log] 07/09/2022 14:11:58: Queue unlock msg:$msg_newrecipe:Black Metal Great Sword Foreign
 
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Iron Knuckles
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Buck and Doe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Silver Claws
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Bronze Crowbill
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Silver Greatsword
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Bronze Greatsword
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Iron Greatsword
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Bronze Battleaxe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Silver Battleaxe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Bronze Sledge
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Great Silver Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Core Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Green Core Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Blue Core Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Great Core Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Green Great Core Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Blue Great Core Mace
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Core Axe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Green Core Axe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Blue Core Axe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Great Core Battleaxe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Green Great Core Battleaxe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Blue Great Core Battleaxe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Grasp of Undying
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Black Metal Greatsword
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Exotic Black Metal Greatsword
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Moder's Sorrow
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Red Moder's Sorrow
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Heavy Iron Greatsword
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Black Metal Battleaxe
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Dragon Slayer
-
-[Info   : Unity Log] 07/09/2022 13:02:47: Queue unlock msg:$msg_newrecipe:Body of the Devoted
+[Info   : Unity Log] 07/09/2022 14:11:58: Queue unlock msg:$msg_newrecipe:Heavy Iron Great Sword
 
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
@@ -4989,32 +4928,144 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #1: belt1, Is Male False, is Sexless True
-[Info   : Unity Log] 07/09/2022 13:02:48: Minimap: Adding unique location (0.8, 43.5, -6.6)
+[Info   : Unity Log] 07/09/2022 14:11:59: Minimap: Adding unique location (0.8, 43.5, -6.6)
 
-[Info   : Unity Log] 07/09/2022 13:02:48: Minimap: Adding unique location (1551.4, 40.3, -1363.2)
+[Info   : Unity Log] 07/09/2022 14:11:59: Minimap: Adding unique location (1551.4, 40.3, -1363.2)
 
-[Info   : Unity Log] 07/09/2022 13:02:54: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 14:12:02: Setting selected recipe 0
 
 [Message:MultiCraft] Creating new plus button
 [Message:MultiCraft] Creating new minus button
 [Message:MultiCraft] CreatingNewAmountText
-[Info   : Unity Log] 07/09/2022 13:02:54: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 14:12:02: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 13:02:54: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 14:12:02: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 13:03:55: Game - OnApplicationQuit
+[Info   : Unity Log] 07/09/2022 14:12:09: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 13:03:55: ZNet Shutdown
+[Info   : Unity Log] 07/09/2022 14:12:09: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 13:03:56: clone 1053
+[Info   : Unity Log] 07/09/2022 14:12:09: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 13:04:01: Sending disconnect msg
+[Info   : Unity Log] 07/09/2022 14:12:16: Right back item rune_frostnova
 
-[Info   : Unity Log] 07/09/2022 13:04:01: Disposing socket
+[Info   : Unity Log] 07/09/2022 14:12:17: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 13:04:01: Stopping listening socket
+[Info   : Unity Log] 07/09/2022 14:12:17: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 13:04:02: Last socket, unregistering callback
+[Info   : Unity Log] 07/09/2022 14:12:17: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 13:04:02: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+[Info   : Unity Log] 07/09/2022 14:12:21: Setting selected recipe 161
+
+[Info   : Unity Log] 07/09/2022 14:12:23: Queue unlock msg:$msg_newitem:Moder's Sorrow
+
+[Info   : Unity Log] 07/09/2022 14:12:24: Setting selected recipe 161
+
+[Info   : Unity Log] 07/09/2022 14:12:25: Right back item 
+
+[Info   : Unity Log] 07/09/2022 14:12:56: Setting selected recipe 161
+
+[Info   : Unity Log] 07/09/2022 14:12:56: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:12:56: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:12:58: Setting selected recipe 161
+
+[Info   : Unity Log] 07/09/2022 14:12:58: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:12:58: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:13:01: Setting selected recipe 166
+
+[Info   : Unity Log] 07/09/2022 14:13:03: Setting selected recipe 166
+
+[Info   : Unity Log] 07/09/2022 14:13:04: Item is not in this container
+
+[Info   : Unity Log] 07/09/2022 14:13:04: Item is not in this container
+
+[Info   : Unity Log] 07/09/2022 14:13:04: Item is not in this container
+
+[Info   : Unity Log] 07/09/2022 14:13:04: Setting selected recipe 166
+
+[Info   : Unity Log] 07/09/2022 14:13:09: Setting selected recipe 166
+
+[Info   : Unity Log] 07/09/2022 14:13:09: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:09: UI Group status changed Player = True
+
+[Info   :Trash Items Mod] Trash Items clicked!
+[Info   : Unity Log] 07/09/2022 14:13:12: Setting selected recipe 166
+
+[Info   :Trash Items Mod] Trash Items clicked!
+[Info   : Unity Log] 07/09/2022 14:13:13: Setting selected recipe 166
+
+[Info   : Unity Log] 07/09/2022 14:13:15: Setting selected recipe 161
+
+[Info   : Unity Log] 07/09/2022 14:13:15: Setting selected recipe 162
+
+[Info   : Unity Log] 07/09/2022 14:13:16: Setting selected recipe 160
+
+[Info   : Unity Log] 07/09/2022 14:13:19: Queue unlock msg:$msg_newitem:Black Metal Great Sword Foreign
+
+[Info   : Unity Log] 07/09/2022 14:13:19: Setting selected recipe 160
+
+[Info   : Unity Log] 07/09/2022 14:13:25: Setting selected recipe 160
+
+[Info   : Unity Log] 07/09/2022 14:13:25: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:25: UI Group status changed Player = True
+
+[Info   :Trash Items Mod] Trash Items clicked!
+[Info   : Unity Log] 07/09/2022 14:13:27: Setting selected recipe 160
+
+[Info   : Unity Log] 07/09/2022 14:13:27: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:31: Queue unlock msg:$msg_newitem:Black Metal Great Sword
+
+[Info   : Unity Log] 07/09/2022 14:13:31: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:32: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:32: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:32: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:13:36: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:36: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:36: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:13:40: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:40: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:40: UI Group status changed Player = True
+
+[Info   :Trash Items Mod] Trash Items clicked!
+[Info   : Unity Log] 07/09/2022 14:13:42: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:46: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:46: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:46: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:13:55: Setting selected recipe 160
+
+[Info   : Unity Log] 07/09/2022 14:13:55: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:55: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:13:57: Setting selected recipe 159
+
+[Info   : Unity Log] 07/09/2022 14:13:57: UI Group status changed root = True
+
+[Info   : Unity Log] 07/09/2022 14:13:57: UI Group status changed Player = True
+
+[Info   : Unity Log] 07/09/2022 14:14:04: Game - OnApplicationQuit
+
+[Info   : Unity Log] 07/09/2022 14:14:05: ZNet Shutdown
+
+[Info   : Unity Log] 07/09/2022 14:14:06: clone 1541
 
