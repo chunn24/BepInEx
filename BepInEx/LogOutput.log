@@ -49,7 +49,7 @@
 [Info   :    Jotunn] Jötunn v2.2.3 loaded successfully
 [Info   :   BepInEx] Loading [ValheimRAFT 1.1.2]
 [Info   :   BepInEx] Loading [CameraMod 0.0.8.7]
-[Info   : Unity Log] 1ST FOV:85
+[Info   : Unity Log] 1ST FOV:90
 [Info   : Unity Log] 3RD FOV:65
 [Info   : Unity Log] bowzoomON:False
 [Info   : Unity Log] bowzoomFOV:65
@@ -66,9 +66,9 @@
 [Info   :   BepInEx] Loading [More Player Cloth Colliders 3.0.1]
 [Info   :   BepInEx] Loading [Shapekeys and More 1.1.0]
 [Info   :   BepInEx] Loading [Project Auga 1.0.3]
-[Info   : Unity Log] 07/09/2022 17:33:16: Loaded localization English
+[Info   : Unity Log] 07/09/2022 21:09:17: Loaded localization English
 
-[Info   : Unity Log] 07/09/2022 17:33:16: Loaded localization English
+[Info   : Unity Log] 07/09/2022 21:09:17: Loaded localization English
 
 [Info   :   BepInEx] Loading [Extended Item Data Framework 1.0.5]
 [Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.11]
@@ -216,28 +216,28 @@ UnityEngine.Application:.cctor()
 [Info   :   BepInEx] Loading [Skyheim 1.1.1]
 [Info   :   BepInEx] Loading [Hold Attack 0.4.2]
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] 07/09/2022 17:33:22: Starting to load scene:start
+[Info   : Unity Log] 07/09/2022 21:09:22: Starting to load scene:start
 
 [Info   : Unity Log] ConfigurationManager Searching for vanilla Config Manager.
 [Info   : Unity Log] ConfigurationManager Vanilla Config Manager not found.
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
-[Info   : Unity Log] 07/09/2022 17:33:34: Valheim version:0.148.7
+[Info   : Unity Log] 07/09/2022 21:09:31: Valheim version:0.148.7
 
-[Info   : Unity Log] 07/09/2022 17:33:34: Render threading mode:MultiThreaded
+[Info   : Unity Log] 07/09/2022 21:09:31: Render threading mode:MultiThreaded
 
-[Info   : Unity Log] 07/09/2022 17:33:35: Using environment steamid 892970
+[Info   : Unity Log] 07/09/2022 21:09:31: Using environment steamid 892970
 
-[Info   : Unity Log] 07/09/2022 17:33:35: Using steam APPID:892970
+[Info   : Unity Log] 07/09/2022 21:09:31: Using steam APPID:892970
 
-[Info   : Unity Log] 07/09/2022 17:33:35: Authentication:k_ESteamNetworkingAvailability_Current
+[Info   : Unity Log] 07/09/2022 21:09:31: Authentication:k_ESteamNetworkingAvailability_Current
 
-[Info   : Unity Log] 07/09/2022 17:33:35: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 07/09/2022 21:09:31: Steam initialized, persona:Goldberg
 
-[Warning: Unity Log] 07/09/2022 17:33:35: Missing audio clip in music respawn
+[Warning: Unity Log] 07/09/2022 21:09:31: Missing audio clip in music respawn
 
-[Info   : Unity Log] 07/09/2022 17:33:35: Checking for installed DLCs
+[Info   : Unity Log] 07/09/2022 21:09:31: Checking for installed DLCs
 
-[Info   : Unity Log] 07/09/2022 17:33:35: DLC:beta installed:False
+[Info   : Unity Log] 07/09/2022 21:09:31: DLC:beta installed:False
 
 [Info   : Unity Log] CustomTextures Clutter system awake
 [Info   : Unity Log] CustomTextures Checking 17 clutters
@@ -302,9 +302,9 @@ loading custom texture file for texture_waterlilies_MainTex
 object instanced_waterlilies, InstanceRenderer instanced_waterlilies, material clutter_waterlilies, texture waterlilies_n, using texture_waterlilies_n_BumpMap.png for _BumpMap.
 loading custom texture for texture_waterlilies_n_BumpMap 0 layers
 loading custom texture file for texture_waterlilies_n_BumpMap
-[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.62
+[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.39
 [Info   :Jotunn.Managers.LocalizationManager] Loading custom localizations
-[Info   : Unity Log] 07/09/2022 17:33:36: Loaded localization English
+[Info   : Unity Log] 07/09/2022 21:09:33: Loaded localization English
 
 [Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'English'
 [Info   :Seed Totem] Updating color
@@ -517,7 +517,7 @@ object SwordFlametalGreat, ParticleSystemRenderer smoke2, material wraith_smoke 
 loading cached texture for texture_wildfire06_MainTex
 object SwordFlametalGreat, ParticleSystemRenderer smoke3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
 loading cached texture for texture_wildfire06_MainTex
-[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:01.57
+[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.95
 [Info   : Unity Log] id 0
 [Info   : Unity Log] name 
 [Warning:Equipment and Quick Slots] New Extended Inventory for Player
@@ -550,13 +550,13 @@ ConfigurationManager.Patches.Start () (at <9edb05592bc445f5bb0c8d2eab8bf234>:0)
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #1: belt1, Is Male False, is Sexless True
-[Info   : Unity Log] 07/09/2022 17:33:38: UI Group status changed Menu = True
+[Info   : Unity Log] 07/09/2022 21:09:34: UI Group status changed Menu = True
 
 [Info   : Unity Log] id 0
 [Info   : Unity Log] name 
 [Warning:Equipment and Quick Slots] New Extended Inventory for Player
 [Warning:Equipment and Quick Slots] Loaded ExtendedPlayerData
-[Info   : Unity Log] 07/09/2022 17:33:39: Vis equip model set to 1
+[Info   : Unity Log] 07/09/2022 21:09:35: Vis equip model set to 1
 
 [Warning:Equipment and Quick Slots] Loaded ExtendedPlayerData
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
@@ -584,30 +584,32 @@ ConfigurationManager.Patches.Start () (at <9edb05592bc445f5bb0c8d2eab8bf234>:0)
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #1: belt1, Is Male False, is Sexless True
-[Info   : Unity Log] 07/09/2022 17:33:42: UI Group status changed Menu = True
+[Info   : Unity Log] 07/09/2022 21:09:37: UI Group status changed Menu = True
 
-[Info   : Unity Log] 07/09/2022 17:33:54: show character selection
+[Info   : Unity Log] 07/09/2022 21:09:42: show character selection
 
-[Info   : Unity Log] 07/09/2022 17:33:56: OnCharacterStart
+[Info   : Unity Log] 07/09/2022 21:09:43: OnCharacterStart
 
-[Info   : Unity Log] 07/09/2022 17:33:58: Loading player profile chunn_backup_20220627-151638
+[Info   : Unity Log] 07/09/2022 21:09:49: Loading player profile chunn_backup_20220627-151638
 
 [Info   : Unity Log] CustomTextures Reloading ZoneSystem textures _GameMain _Zone
-[Info   : Unity Log] 07/09/2022 17:33:59: Zonesystem Awake 290
+[Info   : Unity Log] 07/09/2022 21:09:50: Zonesystem Awake 561
 
-[Info   : Unity Log] 07/09/2022 17:33:59: DungeonDB Awake 290
+[Info   : Unity Log] 07/09/2022 21:09:50: DungeonDB Awake 561
 
-[Info   : Unity Log] 07/09/2022 17:33:59: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 07/09/2022 21:09:50: Steam initialized, persona:Goldberg
 
-[Info   : Unity Log] 07/09/2022 17:34:02: Load world Chunn
+[Info   : Unity Log] 07/09/2022 21:09:50: Registering lobby
 
-[Info   : Unity Log] 07/09/2022 17:34:02: Loading 1018174 zdos , my id 2519561921 data version:26
+[Info   : Unity Log] 07/09/2022 21:09:53: Load world Chunn
 
-[Info   : Unity Log] 07/09/2022 17:34:06: Loaded 100000 dead zdos
+[Info   : Unity Log] 07/09/2022 21:09:53: Loading 1018174 zdos , my id 3629958863 data version:26
 
-[Info   : Unity Log] 07/09/2022 17:34:06: Removed 0 OLD generated ZDOS
+[Info   : Unity Log] 07/09/2022 21:09:56: Loaded 100000 dead zdos
 
-[Info   : Unity Log] 07/09/2022 17:34:06: Loaded 7132 locations
+[Info   : Unity Log] 07/09/2022 21:09:56: Removed 0 OLD generated ZDOS
+
+[Info   : Unity Log] 07/09/2022 21:09:56: Loaded 7132 locations
 
 [Info   : Unity Log] Registered 'htd.armory ConfigSync' RPC - waiting for incoming connections
 [Info   : Unity Log] Registered 'randyknapp.mods.epicloot ConfigSync' RPC - waiting for incoming connections
@@ -2248,7 +2250,7 @@ object SwordFlametalGreat, ParticleSystemRenderer smoke2, material wraith_smoke 
 loading cached texture for texture_wildfire06_MainTex
 object SwordFlametalGreat, ParticleSystemRenderer smoke3, material wraith_smoke (Instance), texture wildfire06, using texture_wildfire06_MainTex.png for _MainTex.
 loading cached texture for texture_wildfire06_MainTex
-[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:11.23
+[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:10.39
 [Info   : Unity Log] CustomTextures Reloading Environment textures
 [Info   : Unity Log] CustomTextures Reloading 9 Environment textures
 [Info   : Unity Log] CustomTextures 
@@ -2303,11 +2305,11 @@ loading cached texture for texture_wildfire01_MainTex
 [Info   :Jotunn.Managers.PieceManager] Adding 7 custom pieces to the PieceTables
 [Info   :Jotunn.Managers.MockManager] Destroying Mock prefabs
 [Info   :Seed Totem] Moving Seed Totem to Cultivator
-[Info   : Unity Log] 07/09/2022 17:34:18: Audioman already exist, destroying self
+[Info   : Unity Log] 07/09/2022 21:10:07: Audioman already exist, destroying self
 
-[Info   : Unity Log] 07/09/2022 17:34:18: Checking for installed DLCs
+[Info   : Unity Log] 07/09/2022 21:10:07: Checking for installed DLCs
 
-[Info   : Unity Log] 07/09/2022 17:34:18: DLC:beta installed:False
+[Info   : Unity Log] 07/09/2022 21:10:07: DLC:beta installed:False
 
 [Info   : Unity Log] CustomTextures Clutter system awake
 [Info   : Unity Log] CustomTextures Checking 17 clutters
@@ -2359,59 +2361,65 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.00
 [Info   : Unity Log] CustomTextures Starting ZoneSystem Location prefab replacement
 [Info   : Unity Log] CustomTextures Checking 148 locations
-[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:30.09
-[Info   : Unity Log] 07/09/2022 17:34:52: Zonesystem Start 290
+[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:30.82
+[Info   : Unity Log] 07/09/2022 21:10:43: Zonesystem Start 561
 
-[Info   : Unity Log] 07/09/2022 17:34:52: DungeonDB Start 290
+[Info   : Unity Log] 07/09/2022 21:10:46: DungeonDB Start 561
 
-[Info   : Unity Log] 07/09/2022 17:34:53: Starting respawn
+[Info   : Unity Log] 07/09/2022 21:10:47: Starting respawn
 
-[Info   : Unity Log] 07/09/2022 17:35:05: tip:$loadscreen_tip08
+[Info   : Unity Log] 07/09/2022 21:10:47: Lobby was created k_EResultOK  109212296060873190  error:False
 
-[Info   : Unity Log] 07/09/2022 17:35:07: Loading dungeon
+[Info   : Unity Log] 07/09/2022 21:10:47: Got requested lobby data
 
-[Info   : Unity Log] 07/09/2022 17:35:07: Dungeon loaded 17
+[Info   : Unity Log] 07/09/2022 21:10:57: tip:$loadscreen_tip11
 
-[Info   : Unity Log] 07/09/2022 17:35:07: Dungeon load time 26.9046 ms
+[Info   : Unity Log] 07/09/2022 21:11:01: Loading dungeon
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Force generaeting hmap (-2624.0, 0.0, 832.0)
+[Info   : Unity Log] 07/09/2022 21:11:01: Dungeon loaded 17
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Force generaeting hmap (-2560.0, 0.0, 832.0)
+[Info   : Unity Log] 07/09/2022 21:11:01: Dungeon load time 60.8184 ms
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Failed to find item prefab LeatherQuiver
+[Info   : Unity Log] 07/09/2022 21:11:01: Force generaeting hmap (-2624.0, 0.0, 704.0)
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Force generaeting hmap (-2496.0, 0.0, 896.0)
+[Info   : Unity Log] 07/09/2022 21:11:01: Force generaeting hmap (-2624.0, 0.0, 768.0)
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Force generaeting hmap (-2368.0, 0.0, 768.0)
+[Info   : Unity Log] 07/09/2022 21:11:01: Force generaeting hmap (-2624.0, 0.0, 832.0)
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Force generaeting hmap (-2624.0, 0.0, 832.0)
+[Info   : Unity Log] 07/09/2022 21:11:02: Force generaeting hmap (-2496.0, 0.0, 896.0)
 
-[Info   : Unity Log] 07/09/2022 17:35:08: Force generaeting hmap (-2368.0, 0.0, 832.0)
+[Info   : Unity Log] 07/09/2022 21:11:02: Loading dungeon
 
-[Info   : Unity Log] 07/09/2022 17:35:09: Loading dungeon
+[Info   : Unity Log] 07/09/2022 21:11:02: Dungeon loaded 13
 
-[Info   : Unity Log] 07/09/2022 17:35:09: Dungeon loaded 13
+[Info   : Unity Log] 07/09/2022 21:11:02: Dungeon load time 15.9579 ms
 
-[Info   : Unity Log] 07/09/2022 17:35:09: Dungeon load time 17.9522 ms
+[Info   : Unity Log] 07/09/2022 21:11:02: Failed to find item prefab LeatherQuiver
 
-[Info   : Unity Log] 07/09/2022 17:35:13: Spawned after 8.019994
+[Info   : Unity Log] 07/09/2022 21:11:02: Force generaeting hmap (-2368.0, 0.0, 768.0)
+
+[Info   : Unity Log] 07/09/2022 21:11:02: Force generaeting hmap (-2368.0, 0.0, 832.0)
+
+[Info   : Unity Log] 07/09/2022 21:11:02: Force generaeting hmap (-2432.0, 0.0, 896.0)
+
+[Info   : Unity Log] 07/09/2022 21:11:07: Spawned after 8.019994
 
 [Info   : Unity Log] id 0
 [Info   : Unity Log] name ...
 [Warning:Equipment and Quick Slots] New Extended Inventory for Player
 [Warning:Equipment and Quick Slots] Loaded ExtendedPlayerData
 [Warning:Equipment and Quick Slots] Loaded ExtendedPlayerData
-[Info   : Unity Log] 07/09/2022 17:35:14: Queue unlock msg:$msg_newrecipe:$mod_epicloot_assets_leatherbelt
+[Info   : Unity Log] 07/09/2022 21:11:07: Queue unlock msg:$msg_newrecipe:$mod_epicloot_assets_leatherbelt
 
-[Info   : Unity Log] 07/09/2022 17:35:14: Queue unlock msg:$msg_newrecipe:$mod_epicloot_assets_silverring
+[Info   : Unity Log] 07/09/2022 21:11:07: Queue unlock msg:$msg_newrecipe:$mod_epicloot_assets_silverring
 
-[Info   : Unity Log] 07/09/2022 17:35:14: Queue unlock msg:$msg_newrecipe:$mod_epicloot_assets_goldrubyring
+[Info   : Unity Log] 07/09/2022 21:11:07: Queue unlock msg:$msg_newrecipe:$mod_epicloot_assets_goldrubyring
 
-[Info   : Unity Log] 07/09/2022 17:35:14: Queue unlock msg:$msg_newrecipe:Legendary $mod_epicloot_assets_runestone
+[Info   : Unity Log] 07/09/2022 21:11:07: Queue unlock msg:$msg_newrecipe:Legendary $mod_epicloot_assets_runestone
 
-[Info   : Unity Log] 07/09/2022 17:35:14: Queue unlock msg:$msg_newpiece:$mod_epicloot_assets_enchanter
+[Info   : Unity Log] 07/09/2022 21:11:07: Queue unlock msg:$msg_newpiece:$mod_epicloot_assets_enchanter
 
-[Info   : Unity Log] 07/09/2022 17:35:14: Queue unlock msg:$msg_newpiece:$mod_epicloot_assets_augmenter
+[Info   : Unity Log] 07/09/2022 21:11:07: Queue unlock msg:$msg_newpiece:$mod_epicloot_assets_augmenter
 
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
@@ -2429,141 +2437,56 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Message:Shapekeys and More] Child #0: Armature, Is Male False, is Sexless True
 [Message:Shapekeys and More] Enabling Sex Based Children for attach_skin(Clone)
 [Message:Shapekeys and More] Child #1: belt1, Is Male False, is Sexless True
-[Info   : Unity Log] 07/09/2022 17:35:14: Minimap: Adding unique location (0.8, 43.5, -6.6)
+[Info   : Unity Log] 07/09/2022 21:11:07: Minimap: Adding unique location (0.8, 43.5, -6.6)
 
-[Info   : Unity Log] 07/09/2022 17:35:14: Minimap: Adding unique location (1551.4, 40.3, -1363.2)
+[Info   : Unity Log] 07/09/2022 21:11:07: Minimap: Adding unique location (1551.4, 40.3, -1363.2)
 
-[Info   : Unity Log] 07/09/2022 17:35:21: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:11:11: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:21: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:11:11: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 17:35:21: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:11:11: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 17:35:21: UI Group status changed QuickSlotGrid = False
+[Info   : Unity Log] 07/09/2022 21:11:11: UI Group status changed QuickSlotGrid = False
 
-[Info   : Unity Log] 07/09/2022 17:35:21: UI Group status changed EquipmentSlotGrid = False
+[Info   : Unity Log] 07/09/2022 21:11:11: UI Group status changed EquipmentSlotGrid = False
 
-[Info   : Unity Log] 07/09/2022 17:35:26: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:11:15: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:27: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:11:15: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:27: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:11:15: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 17:35:27: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:11:15: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 17:35:28: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:11:25: Right back item SwordObsidianGreat
 
-[Info   : Unity Log] 07/09/2022 17:35:28: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:11:28: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:28: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:11:28: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 17:35:33: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:11:28: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 17:35:34: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:11:32: Right back item 
 
-[Info   : Unity Log] 07/09/2022 17:35:34: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:11:36: Drop item Moder's Sorrow
 
-[Info   : Unity Log] 07/09/2022 17:35:39: Loading dungeon
+[Info   : Unity Log] 07/09/2022 21:11:36: drop all 1  1
 
-[Info   : Unity Log] 07/09/2022 17:35:39: Dungeon loaded 17
+[Info   : Unity Log] 07/09/2022 21:11:36: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:39: Dungeon load time 20.9241 ms
+[Warning:Equipment and Quick Slots] Added item (Moder's Sorrow) to (Inventory) at (7,0)
+[Info   : Unity Log] 07/09/2022 21:11:40: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:40: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:11:40: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 17:35:40: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:11:40: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 17:35:40: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:11:48: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:43: Loading dungeon
+[Info   : Unity Log] 07/09/2022 21:11:49: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:35:43: Dungeon loaded 17
-
-[Info   : Unity Log] 07/09/2022 17:35:43: Dungeon load time 27.9262 ms
-
-[Info   : Unity Log] 07/09/2022 17:35:44: Force generaeting hmap (-2624.0, 0.0, 832.0)
-
-[Info   : Unity Log] 07/09/2022 17:35:44: Force generaeting hmap (-2560.0, 0.0, 832.0)
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:47: Im finally the owner
-
-[Warning:Equipment and Quick Slots] Added item ($item_axe_blackmetal) to (Inventory) at (6,0)
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:49: Im finally the owner
-
-[Warning:Equipment and Quick Slots] Added item ($item_axe_blackmetal) to (Inventory) at (6,0)
-[Info   : Unity Log] 07/09/2022 17:35:50: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:50: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:50: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:50: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:51: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:51: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:51: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:51: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:51: Im still nto the owner
-
-[Info   : Unity Log] 07/09/2022 17:35:51: Im finally the owner
-
-[Warning:Equipment and Quick Slots] Added item ($item_axe_blackmetal) to (Inventory) at (6,0)
-[Warning:Equipment and Quick Slots] Added item ($item_entrails) to (Inventory) at (0,0)
-[Info   : Unity Log] 07/09/2022 17:35:55: Setting selected recipe 0
-
-[Info   : Unity Log] 07/09/2022 17:35:55: UI Group status changed root = True
-
-[Info   : Unity Log] 07/09/2022 17:35:55: UI Group status changed Player = True
-
-[Info   : Unity Log] 07/09/2022 17:35:55: Loading dungeon
-
-[Info   : Unity Log] 07/09/2022 17:35:55: Dungeon loaded 17
-
-[Info   : Unity Log] 07/09/2022 17:35:55: Dungeon load time 21.9412 ms
-
-[Info   : Unity Log] 07/09/2022 17:35:55: Force generaeting hmap (-2624.0, 0.0, 832.0)
-
-[Info   : Unity Log] 07/09/2022 17:35:55: Force generaeting hmap (-2560.0, 0.0, 832.0)
+[Info   : Unity Log] 07/09/2022 21:11:50: Setting selected recipe 0
 
 [Info   : Unity Log] ConfigurationManager all plugins: 20
 [Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
@@ -2574,169 +2497,66 @@ loading cached texture for texture_waterlilies_n_BumpMap
 [Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
 [Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
 [Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Info   : Unity Log] 07/09/2022 17:36:50: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:12:10: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:36:50: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:12:10: Loading dungeon
 
-[Info   : Unity Log] 07/09/2022 17:36:51: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:12:10: Dungeon loaded 17
 
-[Info   : Unity Log] ConfigurationManager all plugins: 20
-[Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager ValheimRAFT has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager More Player Cloth Colliders has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager Shapekeys and More has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Valheim Plus enabled False
-[Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
-[Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager all plugins: 20
-[Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager ValheimRAFT has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager More Player Cloth Colliders has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager Shapekeys and More has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Valheim Plus enabled False
-[Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
-[Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager all plugins: 20
-[Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager ValheimRAFT has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager More Player Cloth Colliders has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager Shapekeys and More has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Valheim Plus enabled False
-[Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
-[Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager all plugins: 20
-[Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager ValheimRAFT has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager More Player Cloth Colliders has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager Shapekeys and More has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Valheim Plus enabled False
-[Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
-[Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager all plugins: 20
-[Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager ValheimRAFT has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager More Player Cloth Colliders has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager Shapekeys and More has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Valheim Plus enabled False
-[Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
-[Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Info   : Unity Log] 07/09/2022 17:38:39: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:10: Dungeon load time 21.9219 ms
 
-[Info   : Unity Log] 07/09/2022 17:38:39: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:10: UI Group status changed root = True
 
-[Info   : Unity Log] 07/09/2022 17:38:39: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:10: UI Group status changed Player = True
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:10: Force generaeting hmap (-2560.0, 0.0, 832.0)
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:10: Force generaeting hmap (-2624.0, 0.0, 832.0)
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:13: Drop item Moder's Sorrow
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:13: drop all 1  1
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:13: Setting selected recipe 0
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:12:24: Loading dungeon
 
-[Info   : Unity Log] 07/09/2022 17:38:40: Im finally the owner
+[Info   : Unity Log] 07/09/2022 21:12:25: Dungeon loaded 17
 
-[Warning:Equipment and Quick Slots] Added item ($item_axe_blackmetal) to (Inventory) at (6,0)
-[Info   : Unity Log] 07/09/2022 17:38:41: Right back item AxeBlackMetal
+[Info   : Unity Log] 07/09/2022 21:12:25: Dungeon load time 22.9381 ms
 
-[Info   : Unity Log] 07/09/2022 17:38:44: Setting selected recipe 0
+[Info   : Unity Log] 07/09/2022 21:12:25: Force generaeting hmap (-2560.0, 0.0, 832.0)
 
-[Info   : Unity Log] 07/09/2022 17:38:44: UI Group status changed root = True
+[Info   : Unity Log] 07/09/2022 21:12:25: Force generaeting hmap (-2624.0, 0.0, 832.0)
 
-[Info   : Unity Log] 07/09/2022 17:38:44: UI Group status changed Player = True
+[Info   : Unity Log] 07/09/2022 21:12:34: Right back item SwordBlackmetal
 
-[Info   : Unity Log] 07/09/2022 17:38:47: Right back item 
+[Info   : Unity Log] 07/09/2022 21:13:22: UI Group status changed MenuRoot = True
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:23: UI Group status changed MenuRoot = False
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:24: Game - OnApplicationQuit
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Warning:Equipment and Quick Slots] Saving ExtendedPlayerData
+[Info   : Unity Log] 07/09/2022 21:13:24: ZNet Shutdown
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:25: clone 1234
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:29: Sending disconnect msg
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:29: Disposing socket
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:29: Stopping listening socket
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:29: Last socket, unregistering callback
 
-[Info   : Unity Log] 07/09/2022 17:39:01: Im still nto the owner
+[Info   : Unity Log] 07/09/2022 21:13:29: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
 
-[Info   : Unity Log] 07/09/2022 17:39:02: Im finally the owner
+[Info   : Unity Log] 07/09/2022 21:13:35: Steam manager on destroy
 
-[Warning:Equipment and Quick Slots] Added item ($item_axe_blackmetal) to (Inventory) at (6,0)
-[Info   : Unity Log] 07/09/2022 17:39:02: Loading dungeon
+[Info   : Unity Log] 07/09/2022 21:13:36: ZNet OnDestroy
 
-[Info   : Unity Log] 07/09/2022 17:39:02: Dungeon loaded 17
+[Info   : Unity Log] 07/09/2022 21:13:36: Net scene destroyed
 
-[Info   : Unity Log] 07/09/2022 17:39:02: Dungeon load time 24.9334 ms
-
-[Info   : Unity Log] 07/09/2022 17:39:02: Force generaeting hmap (-2624.0, 0.0, 832.0)
-
-[Info   : Unity Log] 07/09/2022 17:39:02: Force generaeting hmap (-2560.0, 0.0, 832.0)
-
-[Info   : Unity Log] 07/09/2022 17:39:06: Setting selected recipe 0
-
-[Info   : Unity Log] 07/09/2022 17:39:06: UI Group status changed root = True
-
-[Info   : Unity Log] 07/09/2022 17:39:06: UI Group status changed Player = True
-
-[Info   : Unity Log] 07/09/2022 17:39:07: Setting selected recipe 0
-
-[Info   : Unity Log] 07/09/2022 17:39:07: UI Group status changed root = True
-
-[Info   : Unity Log] 07/09/2022 17:39:07: UI Group status changed Player = True
-
-[Info   : Unity Log] 07/09/2022 17:39:09: Drop item $item_sword_blackmetal
-
-[Info   : Unity Log] 07/09/2022 17:39:09: drop all 1  1
-
-[Info   : Unity Log] 07/09/2022 17:39:09: Setting selected recipe 0
-
-[Warning:Equipment and Quick Slots] Added item ($item_sword_blackmetal) to (Inventory) at (1,0)
-[Info   : Unity Log] 07/09/2022 17:39:20: UI Group status changed MenuRoot = True
-
-[Info   : Unity Log] ConfigurationManager all plugins: 20
-[Info   : Unity Log] ConfigurationManager Jotunn has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager ValheimRAFT has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager More Player Cloth Colliders has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager Shapekeys and More has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Valheim Plus enabled False
-[Info   : Unity Log] ConfigurationManager Valheim Plus has no showable settings, skipping.
-[Info   : Unity Log] ConfigurationManager plugin: Display BepInEx Info In-Game enabled False
-[Info   : Unity Log] ConfigurationManager Skyheim has no showable settings, skipping.
-[Error  : Unity Log] GUI Error: You are pushing more GUIClips than you are popping. Make sure they are balanced.
-[Error  :Valheim Configuration Manager] Failed to draw setting First Person FOV: - System.FormatException: Input string was not in a correct format.
-  at System.Number.StringToNumber (System.String str, System.Globalization.NumberStyles options, System.Number+NumberBuffer& number, System.Globalization.NumberFormatInfo info, System.Boolean parseDecimal) [0x00057] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Number.ParseInt32 (System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Int32.Parse (System.String s) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at BepInEx.Configuration.TomlTypeConverter+<>c.<.cctor>b__14_15 (System.String str, System.Type type) [0x00000] in <23c82cada6174aeea1f2659206cab34d>:0 
-  at ConfigurationManager.ConfigSettingEntry+<>c__DisplayClass3_1.<.ctor>b__1 (System.String s) [0x0001c] in <9edb05592bc445f5bb0c8d2eab8bf234>:0 
-  at ConfigurationManager.SettingFieldDrawer.DrawUnknownField (ConfigurationManager.SettingEntryBase setting, System.Int32 rightColumnWidth) [0x00065] in <9edb05592bc445f5bb0c8d2eab8bf234>:0 
-  at ConfigurationManager.SettingFieldDrawer.DrawFieldBasedOnValueType (ConfigurationManager.SettingEntryBase setting) [0x0002e] in <9edb05592bc445f5bb0c8d2eab8bf234>:0 
-  at ConfigurationManager.SettingFieldDrawer.DrawSettingValue (ConfigurationManager.SettingEntryBase setting) [0x0010e] in <9edb05592bc445f5bb0c8d2eab8bf234>:0 
-  at ConfigurationManager.BepInExPlugin.DrawSingleSetting (ConfigurationManager.SettingEntryBase setting) [0x00017] in <9edb05592bc445f5bb0c8d2eab8bf234>:0 
-[Info   : Unity Log] 07/09/2022 17:40:37: Setting selected recipe 0
-
-[Info   : Unity Log] 07/09/2022 17:40:37: UI Group status changed root = True
-
-[Info   : Unity Log] 07/09/2022 17:40:37: UI Group status changed Player = True
-
-[Info   : Unity Log] 07/09/2022 17:40:39: Setting selected recipe 0
-
-[Info   : Unity Log] 07/09/2022 17:40:39: UI Group status changed root = True
-
-[Info   : Unity Log] 07/09/2022 17:40:39: UI Group status changed Player = True
+[Warning: Unity Log] 07/09/2022 21:13:39: Local player destroyed
 
