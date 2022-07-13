@@ -1,0 +1,14 @@
+{
+    "name": "Monsternomicon",
+    "version_number": "1.0.5",
+    "website_url": "",
+    "description": "An ever-expanding list of new enemies to enrich the game experience with fresh challenges.",
+    "dependencies": [
+       "ASharpPen-Custom_Raids-1.4.0",
+       "MonsterLabZ-MonsterLabZ-1.7.0",
+       "neurodr0me-RRRMonsters-2.2.1",
+       "neurodr0me-RRRNpcs-0.2.3",
+       "ASharpPen-Spawn_That-0.11.6"
+    ]
+}
+

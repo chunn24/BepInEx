@@ -1,0 +1,2 @@
+This mod was created by Koosemoose, but this upload is not managed by them. I asked permission to upload it here and you should too. If you enjoy it, please go also download and endorse the mod on NexusMods to support the creator.
+https://www.nexusmods.com/valheim/mods/1091

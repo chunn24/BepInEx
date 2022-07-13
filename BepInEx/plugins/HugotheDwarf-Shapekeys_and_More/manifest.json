@@ -1,0 +1,9 @@
+{
+    "name": "Shapekeys_and_More",
+    "version_number": "1.1.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1858",
+    "description": "Client-side mod that does lots of visual improvements in a soft dependency manner.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1700"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "MountUp",
+    "version_number": "3.2.7",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1091",
+    "description": "Allows you to mount and control tamed Boars, and Wolves.",
+    "dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.1900",
+		"ValheimModding-Jotunn-2.4.10"
+    ]
+}

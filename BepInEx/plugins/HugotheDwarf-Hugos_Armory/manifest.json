@@ -1,0 +1,11 @@
+{
+    "name": "Hugos_Armory",
+    "version_number": "7.1.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1189",
+    "description": "Adds 34 new weapons to Valheim. With practical damage numbers to match Valheim. Custom Itemstand positions, and an extra attack with a configureable hotkey.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1700",
+		"HugotheDwarf-More_and_Modified_Player_Cloth_Colliders-3.0.1",
+		"HugotheDwarf-Shapekeys_and_More-1.0.0"
+    ]
+}

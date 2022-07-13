@@ -1,0 +1,9 @@
+{
+    "name": "ValheimQualityOfLife_mabridgland",
+    "version_number": "1.2.1",
+    "website_url": "https://www.nexusmods.com/valheim/mods/104",
+    "description": "The best real-time game enhancement mod and quality of life tool.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1700"
+    ]
+}
