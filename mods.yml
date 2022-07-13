@@ -829,4 +829,68 @@
     minor: 6
     patch: 2
   enabled: true
-  icon: C:\Users\NguyenTrung\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-TeleportEverything\1.6.2\icon.png
+  icon: C:\Users\NguyenTrung\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Default\BepInEx\plugins\OdinPlus-TeleportEverything\icon.png
+- manifestVersion: 1
+  name: Smoothbrain-CreatureLevelAndLootControl
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/
+  displayName: CreatureLevelAndLootControl
+  description: Puts YOU in control of creature level and loot!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 4
+    patch: 9
+  enabled: true
+  icon: C:\Users\NguyenTrung\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Default\BepInEx\plugins\Smoothbrain-CreatureLevelAndLootControl\icon.png
+- manifestVersion: 1
+  name: abearcodes-CraftingWithContainers
+  authorName: abearcodes
+  websiteUrl: https://valheim.thunderstore.io/package/abearcodes/CraftingWithContainers/
+  displayName: CraftingWithContainers
+  description: Allows crafting by using resources in nearby chests
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 14
+  enabled: true
+  icon: C:\Users\NguyenTrung\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Default\BepInEx\plugins\abearcodes-CraftingWithContainers\icon.png
+- manifestVersion: 1
+  name: Tekla-AutoRepair
+  authorName: Tekla
+  websiteUrl: https://valheim.thunderstore.io/package/Tekla/AutoRepair/
+  displayName: AutoRepair
+  description: Interacting with a workbench will repair all items it can from your
+    inventory.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 1602
+  enabled: true
+  icon: C:\Users\NguyenTrung\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Tekla-AutoRepair\5.4.1602\icon.png
